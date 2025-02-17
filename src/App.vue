@@ -1,18 +1,27 @@
 <script setup>
+import FooterContent from "./components/FooterContent.vue";
+import GlobalLayout from './layouts/GlobalLayout.vue'
 import { RouterView } from 'vue-router'
 </script>
 
 <template>
   <GlobalLayout>
 
-    <header>
+    <template #nav>
+      <div class="bg-white h-16 flex flex-col justify-center font-bold text-4xl shadow-lg">
+        Nav
+      </div>
+    </template>
+
+    <template #header>
       Header
-    </header>
-    <main>
-      <RouterView />
-    </main>
-    <footer>
-      Footer
-    </footer>
+    </template>
+
+    <RouterView />
+
+    <template #footer>
+      <FooterContent />
+    </template>
+
   </GlobalLayout>
 </template>
