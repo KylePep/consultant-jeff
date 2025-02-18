@@ -5,8 +5,22 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
 <template>
   <div class="space-y-24 lg:space-y-32">
+    <SectionLayout width="wide">
+      <div class="h-64 bg-blue-200">
+        Hero
+      </div>
+    </SectionLayout>
+
     <SectionLayout width="base">
-      <div>page</div>
+      <div class="h-64 bg-green-200">
+        page
+      </div>
+    </SectionLayout>
+
+    <SectionLayout width="base">
+      <div class="h-64 bg-red-200">
+        page
+      </div>
     </SectionLayout>
   </div>
 </template>

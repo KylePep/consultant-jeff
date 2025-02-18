@@ -4,22 +4,19 @@
 
 
 <template>
+  <div class="flex flex-col">
+    <nav class="sticky top-0">
+      <slot name="nav"></slot>
+    </nav>
 
-  <nav class="sticky top-0">
-    <slot name="nav"></slot>
-  </nav>
+    <main class="min-h-screen">
+      <slot />
+    </main>
 
-  <header id="header">
-    <slot name="header"></slot>
-  </header>
-
-  <main class="flex-1 min-h-screen">
-    <slot />
-  </main>
-
-  <footer id="footer" class="">
-    <slot name="footer"></slot>
-  </footer>
+    <footer id="footer" class="">
+      <slot name="footer"></slot>
+    </footer>
+  </div>
 
 </template>
 
