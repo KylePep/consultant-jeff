@@ -1,15 +1,26 @@
+<script setup lang="ts">
+import SectionLayout from "@/layouts/SectionLayout.vue";
+
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="space-y-24 lg:space-y-32">
+    <SectionLayout width="wide">
+      <div class="h-64 bg-blue-200">
+        Contact - Hero
+      </div>
+    </SectionLayout>
+
+    <SectionLayout width="base">
+      <div class="h-64 bg-green-200">
+        page
+      </div>
+    </SectionLayout>
+
+    <SectionLayout width="base">
+      <div class="h-64 bg-red-200">
+        page
+      </div>
+    </SectionLayout>
   </div>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

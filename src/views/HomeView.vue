@@ -7,7 +7,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
   <div class="space-y-24 lg:space-y-32">
     <SectionLayout width="wide">
       <div class="h-64 bg-blue-200">
-        Hero
+        Home - Hero
       </div>
     </SectionLayout>
 
