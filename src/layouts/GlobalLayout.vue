@@ -13,7 +13,7 @@
       <slot />
     </main>
 
-    <footer id="footer" class="">
+    <footer id="footer" class="mt-4">
       <slot name="footer"></slot>
     </footer>
   </div>
