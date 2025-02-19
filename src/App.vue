@@ -8,20 +8,17 @@ import { RouterView } from 'vue-router'
   <GlobalLayout>
 
     <template #nav>
-      <div class="bg-white flex justify-between font-bold text-4xl shadow-lg">
+      <div class="text-xl text-green-100 font-bold flex justify-between p-4 border-b-1 border-green-200 mb-10">
 
         <RouterLink :to="{ name: 'home' }" class="">
           Home
         </RouterLink>
-        <RouterLink :to="{ name: 'about' }" class="">
+
+        <RouterLink :to="{ name: 'contact' }" class="">
           Contact
         </RouterLink>
       </div>
     </template>
-
-    <!-- <template #header>
-      Header
-    </template> -->
 
     <RouterView />
 

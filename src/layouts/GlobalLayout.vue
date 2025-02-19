@@ -4,8 +4,8 @@
 
 
 <template>
-  <div class="flex flex-col">
-    <nav class="sticky top-0">
+  <div class="flex flex-col bg-green-950">
+    <nav class="">
       <slot name="nav"></slot>
     </nav>
 
