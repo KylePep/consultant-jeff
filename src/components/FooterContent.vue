@@ -101,13 +101,13 @@ const services = {
 
 <template>
   <div class="bg-linear-to-b via-emerald-black/50 to-black/50 text-xs lg:text-lg text-green-200">
-    <div class="bg-fm-teal px-6 lg:px-40 grid grid-cols-4 gap-1 gap-y-8 lg:gap-20 text-fm-pink py-12">
+    <div class="px-6 lg:px-40 grid grid-cols-4 gap-1 gap-y-8 lg:gap-20 py-12">
 
-      <section class="col-span-4 lg:col-span-1 lg:col-start-3 space-y-4 lg:flex flex-col justify-start">
+      <section class="col-span-4 lg:col-span-1 space-y-4 lg:flex flex-col justify-start">
         <div class="font-bold text-lg">
           Services
         </div>
-        <ul class="flex justify-between space-y-4 lg:space-y-1 lg:text-sm px-2">
+        <ul class="flex flex-row lg:flex-col justify-between space-y-4 lg:space-y-1 lg:text-sm px-2">
           <li v-for="service, index in services" :key="index">
             <router-link :to="{ name: 'contact' }" class="text-emerald-300">
               {{ service.title }}
@@ -120,7 +120,7 @@ const services = {
         <div class="font-bold text-lg">
           Get In Touch
         </div>
-        <ul class="flex justify-between px-2 space-y-4">
+        <ul class="flex flex-row lg:flex-col justify-between px-2 space-y-4">
           <li class="font-semibold text-sm ">Phone: <span
               class="font-normal text-sm text-emerald-300">xxx-xxx-xxxx</span></li>
           <li class="font-semibold text-sm">Email: <span
