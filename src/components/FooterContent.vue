@@ -127,7 +127,7 @@ const services = {
               class="font-normal text-sm text-emerald-300">email@email.com</span></li>
         </ul>
 
-        <div class="flex gap-4">
+        <!-- <div class="flex gap-4">
           <a target="_blank" href="https://www.google.com"
             class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
             <i class="relative mdi mdi-facebook text-xl"></i>
@@ -140,7 +140,7 @@ const services = {
             class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
             <i class="relative mdi mdi-alpha-g text-4xl"></i>
           </a>
-        </div>
+        </div> -->
 
       </section>
 
