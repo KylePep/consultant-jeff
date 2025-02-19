@@ -126,18 +126,22 @@ const services = {
           <li class="font-semibold text-sm">Email: <span
               class="font-normal text-sm text-emerald-300">email@email.com</span></li>
         </ul>
+
         <div class="flex gap-4">
-          <a target="_blank" href="https://" class="bg-green-300 rounded-full h-8 w-8 flex justify-center items-center">
+          <a target="_blank" href="https://www.google.com"
+            class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
             <i class="relative mdi mdi-facebook text-xl"></i>
           </a>
-          <a target="_blank" href="https://" class="bg-green-300 rounded-full h-8 w-8 flex justify-center items-center">
+          <a target="_blank" href="https://www.google.com"
+            class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
             <i class="relative mdi mdi-instagram text-xl"></i>
           </a>
-          <a target="_blank" href="https://" class="bg-green-300 rounded-full h-8 w-8 flex justify-center items-center">
+          <a target="_blank" href="https://www.google.com"
+            class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
             <i class="relative mdi mdi-alpha-g text-4xl"></i>
           </a>
-
         </div>
+
       </section>
 
     </div>
