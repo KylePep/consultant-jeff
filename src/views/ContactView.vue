@@ -17,17 +17,19 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
         <img
           src="https://images.unsplash.com/photo-1554311884-415bfda22b47?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="" class="h-64 w-fit mx-auto">
+          alt="" class="h-64 w-fit mx-auto rounded">
 
         <div class="space-y-8">
-          <h2 class="text-green-200 text-lg font-bold">
-            Jeff McBride
-          </h2>
+          <div>
+            <h2 class="text-green-200 text-lg font-bold mb-2">
+              Jeff McBride
+            </h2>
 
-          <p class="text-green-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
-            blanditiis.
-          </p>
+            <p class="text-green-200">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
+              blanditiis.
+            </p>
+          </div>
 
 
           <ul class="space-y-4 text-green-100">

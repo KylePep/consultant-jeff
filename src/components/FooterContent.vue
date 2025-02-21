@@ -1,7 +1,4 @@
 <script setup>
-import KylePepButton from "./KylePepButton.vue";
-
-// import KylePepButton from "./KylePepButton.vue";
 
 const services = {
   "construction": {
