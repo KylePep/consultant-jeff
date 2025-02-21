@@ -13,7 +13,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
     <SectionLayout width="base">
       <div
-        class="flex flex-col lg:flex-row space-y-8 py-8 bg-linear-to-bl from-teal-600 via-emerald-600 to-emerald-900 rounded-xl p-4">
+        class="flex flex-col lg:flex-row space-y-8 py-8 bg-linear-to-bl from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
 
         <img
           src="https://images.unsplash.com/photo-1554311884-415bfda22b47?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

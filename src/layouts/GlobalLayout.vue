@@ -4,7 +4,7 @@
 
 
 <template>
-  <div class="flex flex-col bg-green-950">
+  <div class="flex flex-col bg-linear-to-br from-teal-950 via-emerald-950 to-emerald-950 border border-black">
     <nav class="">
       <slot name="nav"></slot>
     </nav>

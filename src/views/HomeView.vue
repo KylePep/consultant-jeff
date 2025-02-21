@@ -16,42 +16,47 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
       <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
 
         <div
-          class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600 via-emerald-600 to-emerald-900 rounded-xl p-4">
+          class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
           <p class="text-6xl">
             📊
           </p>
-          <h2 class="text-green-200 text-lg font-bold">
-            This thing
-          </h2>
-          <p class="text-green-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
-            blanditiis.
-          </p>
 
           <div>
-            <RouterLink :to="{ name: 'contact' }" class="text-green-200 border-b-1 border-green-200 pb-1">
-              Contact Me
+            <h2 class="text-green-200 text-xl font-semibold mb-2">
+              Construction
+            </h2>
+            <p class="text-green-200 font-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
+              blanditiis.
+            </p>
+          </div>
+
+          <div>
+            <RouterLink :to="{ name: 'contact' }" class="text-green-200 border-b-2 font-semibold border-green-200 pb-1">
+              Contact me
             </RouterLink>
           </div>
         </div>
 
 
         <div
-          class="flex flex-col space-y-8 py-8 bg-linear-to-br from-teal-600 via-emerald-600 to-emerald-900 rounded-xl p-4">
+          class="flex flex-col space-y-8 py-8 bg-linear-to-br from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
           <p class="text-6xl">
             🧩
           </p>
-          <h2 class="text-green-200 text-lg font-bold">
-            That thing
-          </h2>
-          <p class="text-green-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
-            blanditiis.
-          </p>
+          <div>
+            <h2 class="text-green-200 text-xl font-semibold mb-2">
+              Consultation
+            </h2>
+            <p class="text-green-200 font-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
+              blanditiis.
+            </p>
+          </div>
 
           <div>
-            <RouterLink :to="{ name: 'contact' }" class="text-green-200 border-b-1 border-green-200 pb-1">
-              Contact Me
+            <RouterLink :to="{ name: 'contact' }" class="text-green-200 border-b-2 font-semibold border-green-200 pb-1">
+              Contact me
             </RouterLink>
           </div>
         </div>
@@ -63,21 +68,23 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
 
         <div
-          class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600 via-emerald-600 to-emerald-900 rounded-xl p-4">
+          class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
           <p class="text-6xl">
             🏡
           </p>
-          <h2 class="text-green-200 text-lg font-bold">
-            Other thing
-          </h2>
-          <p class="text-green-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
-            blanditiis.
-          </p>
+          <div>
+            <h2 class="text-green-200 text-xl font-semibold mb-2">
+              Service
+            </h2>
+            <p class="text-green-200 font-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam voluptate reiciendis, modi, molestiae
+              blanditiis.
+            </p>
+          </div>
 
           <div>
-            <RouterLink :to="{ name: 'contact' }" class="text-green-200 border-b-1 border-green-200 pb-1">
-              Contact Me
+            <RouterLink :to="{ name: 'contact' }" class="text-green-200 border-b-2 font-semibold border-green-200 pb-1">
+              Contact me
             </RouterLink>
           </div>
 
