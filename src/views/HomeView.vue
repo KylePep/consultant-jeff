@@ -17,9 +17,8 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
         <div
           class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
-          <p class="text-6xl">
-            📊
-          </p>
+          <i class="text-6xl mdi mdi-account-hard-hat text-amber-400">
+          </i>
 
           <div>
             <h2 class="text-green-200 text-xl font-semibold mb-2">
@@ -41,9 +40,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
         <div
           class="flex flex-col space-y-8 py-8 bg-linear-to-br from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
-          <p class="text-6xl">
-            🧩
-          </p>
+          <i class="mdi mdi-hammer-screwdriver text-6xl text-amber-400"></i>
           <div>
             <h2 class="text-green-200 text-xl font-semibold mb-2">
               Consultation
@@ -69,9 +66,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
         <div
           class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
-          <p class="text-6xl">
-            🏡
-          </p>
+          <i class="text-6xl mdi mdi-handshake text-amber-400"></i>
           <div>
             <h2 class="text-green-200 text-xl font-semibold mb-2">
               Service
