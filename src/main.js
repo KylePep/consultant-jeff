@@ -6,8 +6,10 @@ import App from './App.vue'
 import router from './router'
 import { registerGlobalComponents } from './registerGlobalComponents.js'
 
-const app = createApp(App)
-await registerGlobalComponents(app)
-app.use(router)
-
-app.mount('#app')
+const root = createApp(App)
+async function init() {
+  await registerGlobalComponents(root)
+    .use(router)
+    .mount('#app')
+}
+init()
