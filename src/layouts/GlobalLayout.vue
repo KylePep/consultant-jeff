@@ -1,8 +1,10 @@
 <script setup>
+import KylePepButton from "@/components/KylePepButton.vue";
+
 </script>
 
 <template>
-  <div class="relative flex flex-col border border-black min-h-screen ">
+  <div class="relative flex flex-col min-h-screen ">
     <div class="background-container" :style="{
       backgroundImage: 'url(https://images.unsplash.com/photo-1517044843854-77c098f2edd9?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
       filter: 'grayscale(60%)', /* Desaturates the image */
@@ -13,9 +15,11 @@
       backgroundPosition: 'center', /* Centers the background image */
     }"></div>
 
-    <div class="text-6xl font-black text-white h-screen flex justify-center items-center">4bar construction</div>
+    <div class="text-5xl lg:text-6xl font-black text-white h-screen flex justify-center items-center text-center">4 Bar
+      M
+      Construction</div>
 
-    <nav>
+    <nav class="sticky top-0 z-10">
       <slot name="nav"></slot>
     </nav>
 
@@ -23,9 +27,17 @@
       <slot />
     </main>
 
-    <footer id="footer" class="pb-96">
+    <footer class="pb-96">
       <slot name="footer"></slot>
     </footer>
+
+    <div class="py-6 lg:py-12 text-center text-green-200 px-16 space-y-8">
+
+
+      <section class="flex flex-col justify-center items-center pb-12">
+        <KylePepButton />
+      </section>
+    </div>
   </div>
 </template>
 

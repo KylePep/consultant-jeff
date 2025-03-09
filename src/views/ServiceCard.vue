@@ -3,13 +3,20 @@
 
 <template>
   <div class="flex flex-col items-center space-y-4 py-4">
-    <div class="bg-emerald-500 rounded-full h-32 w-32 flex justify-center items-center">
-      <i class="relative mdi mdi-facebook text-7xl"></i>
-    </div>
-    <h2 class="font-bold text-xl">Title</h2>
-    <p class="text-xs px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat atque esse odit officiis
-      sapiente
-      tempora illu</p>
+
+    <RouterLink :to="{ name: 'contact' }"
+      class="bg-fbGreen rounded-full h-24 lg:h-32 w-24 lg:w-32 flex justify-center items-center">
+      <slot name="icon"></slot>
+    </RouterLink>
+
+    <h2 class="font-bold text-xl text-fbGreen text-center">
+      <slot name="title"></slot>
+    </h2>
+
+    <p class="text-base lg:text-sm lg:text-base w-1/2 lg:w-full px-4 text-center">
+      <slot name="text"></slot>
+    </p>
+
   </div>
 </template>
 

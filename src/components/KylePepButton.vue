@@ -2,7 +2,7 @@
 
 
 <template>
-  <p class="mb-2 text-light ">
+  <p class="mb-2 text-white">
     This website was developed by
   </p>
   <div class="text-box flex justify-center">
