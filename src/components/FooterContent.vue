@@ -2,98 +2,11 @@
 
 const services = {
   "construction": {
-    "image": "https://images.unsplash.com/photo-1645005513709-77336f075dc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Construction",
-    "description": "Delectus voluptatem fugiat doloremque ab in. Assumenda eos temporibus quia temporibus expedita numquam ut velit repellendus. Totam aperiam eum aut ea consequatur. Totam iure ab in ea possimus mollitia aperiam. Qui corporis officiis accusantium eveniet fugiat neque necessitatibus. Ipsum dolores fugit facere et labore et officia magnam sint.",
-    "quote": "Nulla omnis nulla rerum. Et architecto dolorem unde. In non molestiae vel autem iste. Architecto et eum beatae facilis. Illum aut non consequuntur reprehenderit velit sequi quia.",
-    "benefits": [
-      "Eum dolor atque quisquam qui voluptate necessitatibus tempore.",
-      "Alias quidem non explicabo delectus totam dolores odit.",
-      "Et laboriosam magni animi dignissimos.",
-      "Adipisci dolorem minus quas voluptate sapiente velit unde veritatis.",
-      "Perferendis nihil veritatis.",
-      "Et reiciendis iure blanditiis quas sed dolore."
-    ],
-    "faqs": [
-      {
-        "question": "What is Sports Rehabilitation and how can I benefit?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": true
-      },
-      {
-        "question": "What is involved in the initial consultation?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": false
-      },
-      {
-        "question": "Does insurance cover your services?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": false
-      }
-    ]
   },
-  "consultation": {
-    "image": "https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "Consultation": {
     "title": "Consultation",
-    "description": "Delectus voluptatem fugiat doloremque ab in. Assumenda eos temporibus quia temporibus expedita numquam ut velit repellendus. Totam aperiam eum aut ea consequatur. Totam iure ab in ea possimus mollitia aperiam. Qui corporis officiis accusantium eveniet fugiat neque necessitatibus. Ipsum dolores fugit facere et labore et officia magnam sint.",
-    "quote": "Nulla omnis nulla rerum. Et architecto dolorem unde. In non molestiae vel autem iste. Architecto et eum beatae facilis. Illum aut non consequuntur reprehenderit velit sequi quia.",
-    "benefits": [
-      "Eum dolor atque quisquam qui voluptate necessitatibus tempore.",
-      "Alias quidem non explicabo delectus totam dolores odit.",
-      "Et laboriosam magni animi dignissimos.",
-      "Adipisci dolorem minus quas voluptate sapiente velit unde veritatis.",
-      "Perferendis nihil veritatis.",
-      "Et reiciendis iure blanditiis quas sed dolore."
-    ],
-    "faqs": [
-      {
-        "question": "What is Home Care and how can I benefit?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": true
-      },
-      {
-        "question": "What is involved in the initial consultation?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": false
-      },
-      {
-        "question": "Does insurance cover your services?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": false
-      }
-    ]
-  },
-  "service": {
-    "image": "https://images.unsplash.com/photo-1620733723572-11c53f73a416?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "title": "Service",
-    "description": "Delectus voluptatem fugiat doloremque ab in. Assumenda eos temporibus quia temporibus expedita numquam ut velit repellendus. Totam aperiam eum aut ea consequatur. Totam iure ab in ea possimus mollitia aperiam. Qui corporis officiis accusantium eveniet fugiat neque necessitatibus. Ipsum dolores fugit facere et labore et officia magnam sint.",
-    "quote": "Nulla omnis nulla rerum. Et architecto dolorem unde. In non molestiae vel autem iste. Architecto et eum beatae facilis. Illum aut non consequuntur reprehenderit velit sequi quia.",
-    "benefits": [
-      "Eum dolor atque quisquam qui voluptate necessitatibus tempore.",
-      "Alias quidem non explicabo delectus totam dolores odit.",
-      "Et laboriosam magni animi dignissimos.",
-      "Adipisci dolorem minus quas voluptate sapiente velit unde veritatis.",
-      "Perferendis nihil veritatis.",
-      "Et reiciendis iure blanditiis quas sed dolore."
-    ],
-    "faqs": [
-      {
-        "question": "What is Aroma Therapy and how can I benefit?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": true
-      },
-      {
-        "question": "What is involved in the initial consultation?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": false
-      },
-      {
-        "question": "Does insurance cover your services?",
-        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        "state": false
-      }
-    ]
-  },
+  }
 }
 </script>
 

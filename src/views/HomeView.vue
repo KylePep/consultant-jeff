@@ -13,7 +13,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
     </SectionLayout>
 
     <SectionLayout width="base">
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
 
         <div
           class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
@@ -64,7 +64,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
           alt="" class="min-h-64 lg:h-full rounded-xl object-cover object-[25%_75%]">
 
 
-        <div
+        <!-- <div
           class="flex flex-col space-y-8 py-8 bg-linear-to-bl from-teal-600/25 via-emerald-600/25 to-emerald-900/25 border border-black/25 rounded-xl p-4">
           <i class="text-6xl mdi mdi-handshake text-amber-300"></i>
           <div>
@@ -83,7 +83,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
             </RouterLink>
           </div>
 
-        </div>
+        </div> -->
       </div>
 
     </SectionLayout>
