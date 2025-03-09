@@ -11,7 +11,7 @@
             Contact
           </h3>
         </div>
-        <ul class="flex justify-between px-2 space-y-4 pb-2">
+        <ul class="flex flex-col lg:flex-row justify-between px-2 space-y-4 pb-2">
           <li class="font-semibold text-sm ">
             <a href="tel:2089998966">
               Phone:
