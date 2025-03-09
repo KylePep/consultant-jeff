@@ -49,8 +49,19 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
 
           <ul class="space-y-8">
-            <li class="font-semibold text-sm lg:text-xl ">Phone: 208-999-8966</li>
-            <li class="font-semibold text-sm lg:text-xl">PO Box 443, Eagle ID 83616</li>
+            <a href="tel:2089998966" class="flex items-center bg-fbGreen py-1 text-white rounded">
+              <i class="mdi mdi-phone text-2xl px-8"></i>
+              208-999-8966
+            </a>
+
+            <a href="mailto:jeff.mcbride@heronconsulting.us"
+              class="flex items-center bg-fbGreen py-1 text-white rounded">
+              <i class="mdi mdi-email text-2xl px-8"></i>
+              jeff.mcbride@heronconsulting.us
+            </a>
+            <li class="font-semibold text-sm lg:text-xl">
+              PO Box 443, Eagle ID 83616
+            </li>
           </ul>
         </div>
 
