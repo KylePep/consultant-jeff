@@ -1,2 +1,12 @@
 @import './theme.css';
 @import "tailwindcss";
+
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-fbLight: #9DA792;
+  --color-fbGray: #56624E;
+  --color-fbGreen: #2A382A;
+  --color-fbWhite: #E3DCC3;
+}
