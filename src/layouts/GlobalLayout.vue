@@ -43,12 +43,17 @@ import KylePepButton from "@/components/KylePepButton.vue";
 
 <style scoped>
 .background-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
-  min-height: 100vh;
+  /* Keeps it behind the content */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: height 0.3s ease-out;
+  /* Smooth transition for height changes */
 }
 </style>
