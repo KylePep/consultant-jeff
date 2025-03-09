@@ -12,8 +12,21 @@
           </h3>
         </div>
         <ul class="flex justify-between px-2 space-y-4 pb-2">
-          <li class="font-semibold text-sm ">Phone: <span class="font-normal text-sm ">208-999-8966</span></li>
-          <li class="font-semibold text-sm "> PO Box 443, Eagle ID 83616</li>
+          <li class="font-semibold text-sm ">
+            <a href="tel:2089998966">
+              Phone:
+              <span class="font-normal text-sm ">208-999-8966</span>
+            </a>
+          </li>
+          <li class="font-semibold text-sm ">
+            <a href="mailto:jeff.mcbride@heronconsulting.us">
+              Email:
+              <span class="font-normal text-sm ">jeff.mcbride@heronconsulting.us</span>
+            </a>
+          </li>
+          <li class="font-semibold text-sm ">
+            PO Box 443, Eagle ID 83616
+          </li>
           <!-- <li class="font-semibold text-sm">Email: <span class="font-normal text-sm ">email@email.com</span></li> -->
         </ul>
 
