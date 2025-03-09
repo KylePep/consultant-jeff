@@ -13,7 +13,7 @@
       <slot name="title"></slot>
     </h2>
 
-    <p class="text-base lg:text-sm lg:text-base w-1/2 lg:w-full px-4 text-center">
+    <p class="text-base lg:text-sm lg:text-base w-2/3 lg:w-full px-4 text-center">
       <slot name="text"></slot>
     </p>
 
