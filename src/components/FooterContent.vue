@@ -12,7 +12,7 @@ const services = {
 
 
 <template>
-  <div class="bg-linear-to-b via-emerald-black/50 to-black/50 text-xs lg:text-lg text-green-200">
+  <div class=" text-xs lg:text-lg bg-fbWhite shadow-2xl">
     <div class="px-6 lg:px-40 grid grid-cols-4 gap-1 gap-y-16 lg:gap-20 py-12">
 
       <section class="col-span-4 lg:col-span-1 space-y-4 lg:flex flex-col justify-start border-b-1 pb-2">
@@ -21,7 +21,7 @@ const services = {
         </div>
         <ul class="flex flex-row lg:flex-col justify-between space-y-4 lg:space-y-1 lg:text-sm px-2">
           <li v-for="service, index in services" :key="index">
-            <router-link :to="{ name: 'contact' }" class="text-emerald-300">
+            <router-link :to="{ name: 'contact' }" class="">
               {{ service.title }}
             </router-link>
           </li>
@@ -33,10 +33,8 @@ const services = {
           Get In Touch
         </div>
         <ul class="flex flex-row lg:flex-col justify-between px-2 space-y-4 border-b-1 pb-2">
-          <li class="font-semibold text-sm ">Phone: <span
-              class="font-normal text-sm text-emerald-300">xxx-xxx-xxxx</span></li>
-          <li class="font-semibold text-sm">Email: <span
-              class="font-normal text-sm text-emerald-300">email@email.com</span></li>
+          <li class="font-semibold text-sm ">Phone: <span class="font-normal text-sm ">xxx-xxx-xxxx</span></li>
+          <li class="font-semibold text-sm">Email: <span class="font-normal text-sm ">email@email.com</span></li>
         </ul>
 
 
@@ -45,11 +43,11 @@ const services = {
       <section class="flex gap-4">
         <a target="_blank" href="https://www.google.com"
           class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
-          <i class="relative mdi mdi-facebook text-xl text-emerald-100"></i>
+          <i class="relative mdi mdi-facebook text-xl"></i>
         </a>
         <a target="_blank" href="https://www.google.com"
           class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
-          <i class="relative mdi mdi-instagram text-xl text-emerald-100"></i>
+          <i class="relative mdi mdi-instagram text-xl"></i>
         </a>
         <!-- <a target="_blank" href="https://www.google.com"
           class="bg-emerald-500 rounded-full h-8 w-8 flex justify-center items-center">
