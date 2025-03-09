@@ -20,7 +20,7 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
           <i class="text-6xl mdi mdi-account-hard-hat text-amber-300">
           </i>
 
-          <div>
+          <div class="bg-fb-green">
             <h2 class="text-green-200 text-xl font-semibold mb-2">
               Construction
             </h2>
