@@ -53,7 +53,7 @@ import KylePepButton from "@/components/KylePepButton.vue";
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   z-index: -1;
   /* Keeps it behind the content */
   background-size: cover;
