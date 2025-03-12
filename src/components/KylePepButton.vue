@@ -2,7 +2,7 @@
 
 
 <template>
-  <p class="mb-2 text-white">
+  <p class="shadow mb-2 text-white">
     This website was developed by
   </p>
   <div class="text-box flex justify-center">
@@ -19,10 +19,9 @@
 }
 
 
-/* .text-box {
-  // margin-left: 44vw;
-  // margin-top: 42vh;
-} */
+.shadow {
+  text-shadow: 1px 1px 2px black;
+}
 
 .btn:link,
 .btn:visited {
