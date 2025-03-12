@@ -44,7 +44,7 @@ import KylePepButton from "@/components/KylePepButton.vue";
 
 <style scoped>
 .hero-image {
-  min-height: calc(100dvh - 96px);
+  min-height: calc(100vh - 96px);
   text-shadow: 2px 2px 8px black;
 }
 
@@ -53,7 +53,7 @@ import KylePepButton from "@/components/KylePepButton.vue";
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100dvh;
+  height: 100vh;
   z-index: -1;
   /* Keeps it behind the content */
   background-size: cover;
