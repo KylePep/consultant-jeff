@@ -2,7 +2,7 @@
 
 
 <template>
-  <p class="shadow mb-2 text-white">
+  <p class="p-shadow mb-2 text-white">
     This website was developed by
   </p>
   <div class="text-box flex justify-center">
@@ -19,7 +19,7 @@
 }
 
 
-.shadow {
+.p-shadow {
   text-shadow: 1px 1px 2px black;
 }
 

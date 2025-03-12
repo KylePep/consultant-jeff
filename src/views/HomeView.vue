@@ -14,9 +14,9 @@ import ServiceCard from './ServiceCard.vue'
             <mark class="text-fbGreen bg-transparent">challenging</mark> environments
           </h1>
           <p class="text-sm lg:text-lg lg:w-2/3 text-white">
-            A high-quality general contractor providing construction services focusing the federal and state governments
-            with an expertise in remote, challenging projects. We continually strive to exceed our customer’s
-            expectations and bringing exceptional value
+            A high-quality general contractor providing construction services focused on federal and state governments,
+            with expertise in remote, challenging projects. We continually strive to exceed our customers’ expectations
+            and bring exceptional value.
           </p>
 
           <RouterLink :to="{ name: 'contact' }" class="bg-fbGreen px-6 py-1 text-white rounded">contact</RouterLink>

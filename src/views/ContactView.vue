@@ -15,10 +15,10 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
             <mark class="text-fbGreen bg-transparent">4 Bar M Construction</mark>
           </h1>
           <p class="text-sm lg:text-lg lg:w-2/3 text-white">
-            4 Bar M Construction is led by a team with over 30 years of experience in the federal market providing
+            4 Bar M Construction is led by a team with over 30 years of experience in the federal market, providing
             outstanding service in some of the most challenging environments. The management team has experience working
-            with DoD, GSA, Department of Interior, NASA. 4 Bar M Construction is a Service Disabled Veteran Owned Small
-            Business
+            with the DoD, GSA, Department of the Interior, and NASA. 4 Bar M Construction is a Service-Disabled
+            Veteran-Owned Small Business.
           </p>
 
         </div>
