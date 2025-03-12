@@ -8,7 +8,7 @@ import KylePepButton from "@/components/KylePepButton.vue";
     <div class="background-container" :style="{
       backgroundImage: 'url(https://images.unsplash.com/photo-1517044843854-77c098f2edd9?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
       filter: 'grayscale(60%)', /* Desaturates the image */
-      backgroundColor: 'rgba(0, 128, 0, 0.2)', /* Green tint */
+      backgroundColor: 'rgba(0, 128, 0, 0.1)', /* Green tint */
       backgroundBlendMode: 'overlay', /* Blends the tint with the image */
       backgroundAttachment: 'fixed', /* Prevents the image from scrolling */
       backgroundSize: 'cover', /* Ensures the image covers the entire background */
