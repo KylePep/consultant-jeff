@@ -54,10 +54,10 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
               208-999-8966
             </a>
 
-            <a href="mailto:jeff.mcbride@heronconsulting.us"
+            <a href="mailto:jeff.mcbride@4barmconstruction.com"
               class="flex items-center bg-fbGreen py-1 text-white rounded">
               <i class="mdi mdi-email text-2xl px-4 lg:px-8"></i>
-              jeff.mcbride@heronconsulting.us
+              jeff.mcbride@4barmconstruction.com
             </a>
             <li class="font-semibold text-sm lg:text-xl">
               PO Box 443, Eagle ID 83616
