@@ -13,7 +13,8 @@ import KylePepButton from "@/components/KylePepButton.vue";
       backgroundAttachment: 'fixed', /* Prevents the image from scrolling */
       backgroundSize: 'cover', /* Ensures the image covers the entire background */
       backgroundPosition: 'center', /* Centers the background image */
-    }"></div>
+    }">
+    </div>
 
     <div class="hero-image text-5xl lg:text-6xl font-black text-white flex justify-center items-center text-center">
       4 Bar
@@ -53,13 +54,13 @@ import KylePepButton from "@/components/KylePepButton.vue";
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100lvh;
+  height: 100vh;
   z-index: -1;
   /* Keeps it behind the content */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  transition: height 0.3s ease-out;
+  transition: all 0.3s ease-in-out;
   /* Smooth transition for height changes */
 }
 </style>
