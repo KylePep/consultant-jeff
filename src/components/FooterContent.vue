@@ -2,23 +2,24 @@
 
 
 <template>
-  <div class=" text-xs lg:text-lg text-fbGreen bg-linear-to-b from-fbWhite from-98% to-fbGray to-100% shadow-2xl">
-    <div class="px-8 lg:px-16 grid grid-cols-4 gap-1 gap-y-16 lg:gap-20 py-12 max-w-7xl mx-auto pb-32">
+  <div id="contactContent"
+    class=" text-xs lg:text-lg text-fbGreen bg-linear-to-b from-fbWhite from-98% to-fbGray to-100% shadow-2xl">
+    <div class="px-8 lg:px-16 grid grid-cols-4 gap-1 gap-y-16 lg:gap-20 py-12 max-w-7xl mx-auto pb-16">
 
       <section class="col-span-4 space-y-16 justify-around ">
         <div class="font-bold text-lg">
-          <h3 class=" text-4xl font-bold text-fbGreen border-b-4 border-fbGreen pb-4 pt-32 mb-16">
+          <h3 class=" text-4xl font-bold text-fbGreen border-b-4 border-fbGreen pb-4 pt-8 mb-16">
             Contact
           </h3>
         </div>
         <ul class="flex flex-col lg:flex-row justify-between px-2 space-y-4 pb-2">
-          <li class="font-semibold text-sm ">
+          <li class="font-semibold text-sm hover:text-fbGray duration-300">
             <a href="tel:2089998966">
               Phone:
               <span class="font-normal text-sm ">208-999-8966</span>
             </a>
           </li>
-          <li class="font-semibold text-sm ">
+          <li class="font-semibold text-sm hover:text-fbGray duration-300">
             <a href="mailto:jeff.mcbride@4barmconstruction.com">
               Email:
               <span class="font-normal text-sm ">jeff.mcbride@4barmconstruction.com</span>

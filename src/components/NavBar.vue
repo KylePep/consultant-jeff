@@ -3,10 +3,9 @@ import { useRoute } from "vue-router";
 
 const route = useRoute()
 
-function scrollTo() {
-  const element = document.getElementById('heroContent');
+function scrollTo(id, offset) {
+  const element = document.getElementById(id);
   if (element) {
-    const offset = 96;
     const elementPosition = element.getBoundingClientRect().top + window.scrollY;
     const targetPosition = elementPosition - offset;
 
@@ -23,17 +22,29 @@ function scrollTo() {
     </p>
   </div>
 
-  <div id="navBar" class="border-b-1 border-green-200 bg-fbGreen h-[64px]">
+  <div id="navBar" class="border-b-1 border-green-200 bg-fbGreen h-[64px] shadow-lg">
 
-    <div class="max-w-7xl mx-auto text-xl text-green-100  font-semibold py-4 px-4 flex justify-between items-center">
-      <RouterLink @click="scrollTo()" :to="{ name: 'home' }" :class="route.name != 'contact' ? 'text-lime-200' : ''"
-        class="flex items-center">
+    <div class="max-w-7xl mx-auto text-xl text-green-100 font-semibold h-full px-4 flex justify-between items-center">
+
+      <RouterLink @click="scrollTo('heroContent', 96)" :to="{ name: 'home' }"
+        :class="route.name != 'contact' ? 'text-lime-200' : ''"
+        class="text-sm lg:text-lg hover:text-lime-200 duration-300 flex items-center">
         4 Bar M Construction
       </RouterLink>
 
-      <RouterLink :to="{ name: 'contact' }" :class="route.name == 'contact' ? 'text-lime-200' : ''">
-        Contact
-      </RouterLink>
+      <div class="space-x-4 lg:space-x-16 h-full flex items-center">
+        <RouterLink @click="scrollTo('heroContent', 96)" :to="{ name: 'contact' }"
+          :class="route.name == 'contact' ? 'text-lime-200' : ''"
+          class="text-sm lg:text-lg hover:text-lime-200 duration-300">
+          Learn More
+        </RouterLink>
+
+        <button @click="scrollTo('contactContent', 64)"
+          class="hover:cursor-pointer text-sm lg:text-lg hover:text-lime-200 duration-300">
+          Contact
+        </button>
+      </div>
+
     </div>
   </div>
 

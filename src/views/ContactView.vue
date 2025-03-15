@@ -7,35 +7,45 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
   <div class="space-y-8 lg:space-y-16">
 
     <SectionLayout width="xl">
-      <div id="heroContent" class="bg-linear-to-b from-fbLight to-fbGray min-h-96">
+      <div id="heroContent" class="bg-linear-to-b from-fbLight to-fbGray">
 
-        <div class="max-w-7xl mx-auto py-4 lg:py-8 px-8 space-y-8">
-          <h1 class="text-2xl lg:text-4xl text-green-100 font-bold">
-            About
-            <mark class="text-fbGreen bg-transparent">4 Bar M Construction</mark>
-          </h1>
-          <p class="text-sm lg:text-lg lg:w-2/3 text-white">
-            4 Bar M Construction is led by a team with over 30 years of experience in the federal market, providing
-            outstanding service in some of the most challenging environments. The management team has experience working
-            with the DoD, GSA, Department of the Interior, and NASA. 4 Bar M Construction is a Service-Disabled
-            Veteran-Owned Small Business.
-          </p>
+        <div class="grid grid-cols-4 max-w-7xl mx-auto  py-8 px-8 space-y-8">
+
+          <div class="col-span-4 lg:col-span-3 space-y-8">
+            <h1 class="text-2xl lg:text-4xl text-fbGreen font-bold">
+              About
+              <mark class="text-green-100 bg-transparent">4 Bar M Construction</mark>
+            </h1>
+
+            <p class="text-sm lg:text-lg lg:w-2/3 text-white">
+              4 Bar M Construction is led by a team with over 30 years of experience in the federal market, providing
+              outstanding service in some of the most challenging environments. The management team has experience
+              working
+              with the DoD, GSA, Department of the Interior, and NASA. 4 Bar M Construction is a Service-Disabled
+              Veteran-Owned Small Business.
+            </p>
+          </div>
+
+
+          <img src="/SBA-SDVOSB-Logo.png" alt="SBA-SDVOSB Logo" class="col-span-4 h-32 lg:h-64">
 
         </div>
+
       </div>
     </SectionLayout>
 
     <SectionLayout width="base">
-      <h2 class="max-w-7xl mx-auto text-4xl font-bold text-fbGreen border-b-4 border-fbGreen pb-4 pt-32 mb-16">
+      <h2 class="max-w-7xl mx-auto text-4xl font-bold text-fbGreen border-b-4 border-fbGreen pb-4 pt-8 mb-12">
         About the Owner
       </h2>
+
       <div class="flex flex-col lg:flex-row max-w-7xl mx-auto gap-16 p-8">
 
         <img
           src="https://images.unsplash.com/photo-1554311884-415bfda22b47?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="" class="h-64 lg:h-96 w-64 lg:w-96 object-center object-cover rounded">
 
-        <div class="space-y-16 text-fbGreen">
+        <div class="space-y-8 text-fbGreen">
           <div class="">
             <h2 class="text-3xl font-bold mb-8">
               Jeff McBride
@@ -66,19 +76,20 @@ import SectionLayout from "@/layouts/SectionLayout.vue";
 
 
           <ul class="space-y-8">
-            <a href="tel:2089998966" class="flex items-center bg-fbGreen py-1 text-white rounded">
+            <a href="tel:2089998966"
+              class="flex items-center bg-fbGreen hover:text-lime-200 duration-300 py-1 text-white rounded">
               <i class="mdi mdi-phone text-xs lg:text-2xl px-4 lg:px-8"></i>
               208-999-8966
             </a>
 
             <a href="mailto:jeff.mcbride@4barmconstruction.com"
-              class="hidden lg:flex items-center bg-fbGreen py-1 text-white rounded">
+              class="hidden lg:flex items-center bg-fbGreen hover:text-lime-200 duration-300 py-1 text-white rounded">
               <i class="mdi mdi-email text-xs lg:text-2xl px-4 lg:px-8"></i>
               jeff.mcbride@4barmconstruction.com
             </a>
 
             <a href="mailto:jeff.mcbride@4barmconstruction.com"
-              class="flex lg:hidden items-center bg-fbGreen py-1 text-white rounded">
+              class="flex lg:hidden items-center bg-fbGreen hover:text-lime-200 duration-300 py-1 text-white rounded">
               <i class="mdi mdi-email text-xs lg:text-2xl px-4 lg:px-8"></i>
               Send an email
             </a>

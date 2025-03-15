@@ -1,6 +1,15 @@
 <script setup>
 import KylePepButton from "@/components/KylePepButton.vue";
 
+function scrollTo(id, offset) {
+  const element = document.getElementById(id);
+  if (element) {
+    const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+    const targetPosition = elementPosition - offset;
+
+    window.scrollTo({ top: targetPosition, behavior: "smooth" });
+  }
+}
 </script>
 
 <template>
@@ -16,10 +25,13 @@ import KylePepButton from "@/components/KylePepButton.vue";
     }">
     </div>
 
-    <div class="hero-image text-5xl lg:text-6xl font-black text-white flex justify-center items-center text-center">
-      4 Bar
-      M
-      Construction
+    <div class="hero-image flex justify-center items-center h-full">
+      <title @click="scrollTo('heroContent', 96)"
+        class="hover:cursor-pointer hover:text-lime-200 duration-300 text-5xl lg:text-6xl font-black text-white flex text-center">
+        4 Bar
+        M
+        Construction
+      </title>
     </div>
 
     <nav class="sticky top-0 z-10">

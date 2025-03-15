@@ -1,14 +1,25 @@
 <script setup>
 import SectionLayout from "@/layouts/SectionLayout.vue";
-import ServiceCard from './ServiceCard.vue'
+import ServiceCard from './ServiceCard.vue';
+import IconCommunity from "@/components/icons/IconService.vue";
+
+function scrollTo(id, offset) {
+  const element = document.getElementById(id);
+  if (element) {
+    const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+    const targetPosition = elementPosition - offset;
+
+    window.scrollTo({ top: targetPosition, behavior: "smooth" });
+  }
+}
 
 </script>
 
 <template>
   <div class="space-y-8 lg:space-y-16 ">
     <SectionLayout width="xl">
-      <div id="heroContent" class="bg-linear-to-b from-fbLight to-fbGray min-h-96">
-        <div class="max-w-7xl mx-auto py-4 lg:py-8 px-8 space-y-8">
+      <div id="heroContent" class="bg-linear-to-b from-fbLight to-fbGray">
+        <div class="max-w-7xl mx-auto py-8 px-8 space-y-8">
           <h1 class="text-2xl lg:text-4xl text-green-100 font-bold">
             The go-to provider to solve complex problems in <mark class="text-fbGreen bg-transparent">remote</mark> and
             <mark class="text-fbGreen bg-transparent">challenging</mark> environments
@@ -18,17 +29,20 @@ import ServiceCard from './ServiceCard.vue'
             with expertise in remote, challenging projects. We continually strive to exceed our customers’ expectations
             and bring exceptional value.
           </p>
+          <button @click="scrollTo('contactContent', 64)"
+            class="hover:cursor-pointer hover:text-lime-200 duration-300 bg-fbGreen px-6 py-1 text-white rounded">
+            Contact
+          </button>
 
-          <RouterLink :to="{ name: 'contact' }" class="bg-fbGreen px-6 py-1 text-white rounded">contact</RouterLink>
         </div>
       </div>
     </SectionLayout>
 
     <SectionLayout width="base">
-      <h2 class="max-w-7xl mx-auto text-4xl font-bold text-fbGreen border-b-4 border-fbGreen pb-4 pt-32 mb-16">Our
+      <h2 class="max-w-7xl mx-auto text-4xl font-bold text-fbGreen border-b-4 border-fbGreen pb-4 pt-8 mb-12">Our
         Mission
       </h2>
-      <section class="grid grid-cols-1 lg:grid-cols-4 gap-x-16 gap-y-16">
+      <section class="grid grid-cols-1 lg:grid-cols-4 gap-x-16 gap-y-8">
         <ServiceCard>
           <template #icon>
             <i class="relative mdi mdi-hard-hat text-6xl lg:text-7xl text-white"></i>
@@ -43,7 +57,7 @@ import ServiceCard from './ServiceCard.vue'
 
         <ServiceCard>
           <template #icon>
-            <i class="relative mdi mdi-weather-sunny text-6xl lg:text-7xl text-white"></i>
+            <IconCommunity />
           </template>
           <template #title>
             Exceptional Service
