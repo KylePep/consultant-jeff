@@ -7,7 +7,7 @@ import ServiceCard from './ServiceCard.vue'
 <template>
   <div class="space-y-8 lg:space-y-16 ">
     <SectionLayout width="xl">
-      <div class="bg-linear-to-b from-fbLight to-fbGray min-h-96">
+      <div id="heroContent" class="bg-linear-to-b from-fbLight to-fbGray min-h-96">
         <div class="max-w-7xl mx-auto py-4 lg:py-8 px-8 space-y-8">
           <h1 class="text-2xl lg:text-4xl text-green-100 font-bold">
             The go-to provider to solve complex problems in <mark class="text-fbGreen bg-transparent">remote</mark> and
