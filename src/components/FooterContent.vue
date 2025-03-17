@@ -48,9 +48,9 @@
     </div>
 
     <div>
-      <!-- <p class="py-6 lg:py-12 text-center px-16 space-y-8">
-        Copyright 2024 by abcdefg. All rights reserved
-      </p> -->
+      <p class="py-6 lg:py-12 text-center px-16 space-y-8">
+        Copyright © 2025 4 Bar M Construction - All Rights Reserved.
+      </p>
     </div>
 
 
