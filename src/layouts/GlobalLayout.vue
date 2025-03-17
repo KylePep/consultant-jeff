@@ -1,5 +1,30 @@
 <script setup>
 import KylePepButton from "@/components/KylePepButton.vue";
+import { computed, onMounted, ref } from "vue";
+
+const backgroundUrl = ref("https://images.unsplash.com/photo-1517044843854-77c098f2edd9?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+const imageFailed = ref(false);
+
+const computedBackgroundStyle = computed(() => {
+  return imageFailed.value
+    ? {}
+    : {
+      backgroundImage: `url(${backgroundUrl.value})`,
+      filter: "grayscale(60%)",
+      backgroundBlendMode: "overlay",
+      backgroundAttachment: "fixed",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }
+});
+
+onMounted(() => {
+  const img = new Image();
+  img.src = backgroundUrl.value;
+  img.onerror = () => {
+    imageFailed.value = true;
+  }
+})
 
 function scrollTo(id, offset) {
   const element = document.getElementById(id);
@@ -13,16 +38,8 @@ function scrollTo(id, offset) {
 </script>
 
 <template>
-  <div class="relative flex flex-col">
-    <div class="background-container" :style="{
-      backgroundImage: 'url(https://images.unsplash.com/photo-1517044843854-77c098f2edd9?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
-      filter: 'grayscale(60%)', /* Desaturates the image */
-      backgroundColor: 'rgba(0, 128, 0, 0.1)', /* Green tint */
-      backgroundBlendMode: 'overlay', /* Blends the tint with the image */
-      backgroundAttachment: 'fixed', /* Prevents the image from scrolling */
-      backgroundSize: 'cover', /* Ensures the image covers the entire background */
-      backgroundPosition: 'center', /* Centers the background image */
-    }">
+  <div class="relative flex flex-col ">
+    <div class="background-container bg-linear-to-t from-fbGray to-fbGreen" :style="computedBackgroundStyle">
     </div>
 
     <div class="hero-image flex justify-center items-center h-full">
